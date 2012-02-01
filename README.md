@@ -12,7 +12,7 @@ script:
 
 or
 
-    $> wget fill this in
+    $> wget https://raw.github.com/nixternal/dreamhost_less_compiler_install_script/master/dh_less_inst.sh
 
 Usage
 -----

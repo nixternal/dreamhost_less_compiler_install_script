@@ -19,6 +19,7 @@ Usage
 It doesn't get any easier than the following:
 
     $> ./dh_less_inst.sh
+    $> chmod +x dh_less_inst.sh
 
 Script Process
 --------------

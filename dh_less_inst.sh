@@ -48,7 +48,7 @@
 
 REPOARCHIVE="http://archive.ubuntu.com/ubuntu/pool/"
 PWD=`pwd`
-PREFIX="$HOME/local"
+PREFIX="$HOME/.local"
 TMPDIR="${PWD}/dhtmp"
 
 setup() {
@@ -154,8 +154,8 @@ echo "*                                                                     *"
 echo "* Next step is to add the following to your .bash_profile or .zshrc   *"
 echo "* file in your home directory on the Dreamhost shared server:         *"
 echo "*                                                                     *"
-echo "*     export LD_LIBRARY_PATH=$HOME/${PREFIX}/usr/lib                  *"
-echo "*     export PATH:$PATH:$HOME/${PREFIX}/usr/bin                       *"
+echo "*     export LD_LIBRARY_PATH=\$HOME/\${PREFIX}/usr/lib                  *"
+echo "*     export PATH:\$PATH:\$HOME/\${PREFIX}/usr/bin                       *"
 echo "*                                                                     *"
 echo "* Next you can either log out and back in or source the proper file   *"
 echo "* from above.                                                         *"

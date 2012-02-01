@@ -45,7 +45,7 @@ Use this stuff responsibly please.
 Meta
 ----
 * Homepage: http://www.nixternal.com/
-* Twitter: http://www.twitter.com/nixternal "@nixternal"
+* Twitter: [@nixternal](http://www.twitter.com/nixternal)
 
 License
 -------

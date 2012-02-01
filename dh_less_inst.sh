@@ -48,7 +48,7 @@
 
 REPOARCHIVE="http://archive.ubuntu.com/ubuntu/pool/"
 PWD=`pwd`
-PREFIX="${PWD}/local"
+PREFIX="$HOME/local"
 TMPDIR="${PWD}/dhtmp"
 
 setup() {
